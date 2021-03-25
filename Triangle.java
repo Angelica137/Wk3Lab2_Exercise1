@@ -24,6 +24,13 @@ public class Triangle extends Application {
 		// create and config a scene
 		Scene scene = new Scene(root, 500, 500);
 
+		// add the scene to the stage and set title
+		stage.setScene(scene);
+		stage.setTitle("Triangle");
+
+		// show stage
+		stage.show();
+
 	}
 
 }
