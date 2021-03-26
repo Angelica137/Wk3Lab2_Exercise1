@@ -30,7 +30,10 @@ public class Triangle extends Application {
 
 		// show stage
 		stage.show();
+	}
 
+	public static void main(String[] args) {
+		launch(args);
 	}
 
 }
